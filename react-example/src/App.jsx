@@ -1,18 +1,15 @@
 import './App.css'
-import { WapperList } from './components/WrapperList'; 
-import { List } from './components/List';
-
+import { Button } from './components/Button'
 
 function App() {
-  
+  const buttonText = "Count: ";
+
   return (
     <>
-      <WapperList>
-        <List/>
-      </WapperList>
-       
+      <h1>Hola desde Vite</h1>
+      <Button text={ buttonText }/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
