@@ -1,13 +1,11 @@
-import './App.css'
-import { Button } from './components/Button'
+import './App.css';
+import { RandomComponent } from './components/RandomComponent';  
 
 function App() {
-  const buttonText = "Count: ";
-
   return (
     <>
-      <h1>Hola desde Vite</h1>
-      <Button text={ buttonText }/>
+      <h1>Color Changer App</h1>
+      <RandomComponent />  {/* Renderizamos el nuevo componente aquí */}
     </>
   );
 }
